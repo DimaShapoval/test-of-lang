@@ -1,0 +1,17 @@
+{
+    "name": "myvendor/myproject",
+    "description": "My PHP project",
+    "type": "composer-plugin",
+    "license": "none",
+    "autoload": {
+        "psr-4": {
+            "Myvendor\\Myproject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DimaShapoval"
+        }
+    ],
+    "require": {}
+}
